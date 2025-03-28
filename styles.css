@@ -1,0 +1,173 @@
+/* Temel stil ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header bölümü */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Banner bölümü */
+.banner {
+    text-align: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 60px 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cta-btn:hover {
+    background-color: #ff4d38;
+}
+
+/* Hakkımda bölümü */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Hizmetler bölümü */
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+#services .service {
+    text-align: center;
+    width: 30%;
+}
+
+#services .service h3 {
+    font-size: 24px;
+    color: #0073e6;
+}
+
+/* Portföy bölümü */
+#portfolio {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#portfolio .portfolio-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+#portfolio .portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* İletişim bölümü */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #0073e6;
+    color: white;
+}
+
+#contact form input, #contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #ff4d38;
+}
+
+/* Footer bölümü */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer .social-links {
+    margin: 10px 0;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #ff6f61;
+}
